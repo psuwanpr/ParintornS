@@ -1,44 +1,49 @@
+@font-face {
+  font-family: "Space Mono";
+  src: url("Space_Mono/SpaceMono-Regular.ttf") format("truetype");
+}
+
+
 header{
 }
 
 
 body {
-
   background-color: #263d36;
-  background-image: url("potato1.jpg"), url("potato2.jpg");
+  background-image: url("potato1.jpg");
   background-position: center top;
   background-repeat: no-repeat;
   background-size: cover;
-transition: background-image 3s;
-
-  background-image: url("potato2.jpg");
+  transition: background-image 1s;
   background-position: center top;
   background-repeat: repeat;
   background-size: cover;
-
   line-height: 1.2;
   padding: 10vw 2em;
-
   margin: 0 auto;
   max-width: 50em;
-    font-family: ("Space_mono");
-
-      line-height: 1;
-      padding: 4em 1em;
-        color: blue;
+  font-family: "Space Mono";
+  line-height: 1;
+  padding: 4em 1em;
+  color: grey;
+}
+body:hover {
+  background-image: url("potato2.jpg");
 }
 
 h1 {
 
   text-align: left;
   font-size: 222px;
-  font-family: ("ariel");
+  font-family: Arial;
+  transition:.5s;
+}
 
-:hover
+h1:hover{
   margin-top: 1em;
   padding-top: 1em;
         color: #CBF9FF;
-}
+      }
 
 #first{
   display: flex;

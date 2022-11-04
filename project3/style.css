@@ -1,0 +1,168 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+margin: 0;
+background-image: url("G4.jpg"),
+linear-gradient(30deg, #1fffe1 0%, #ff6347 100%);
+background-position: center top;
+background-repeat: no-repeat;
+background-size: cover;
+transition: background-image 1s;
+font-family: "Futura", sans-serif;
+line-height: 1.5;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0;
+}
+
+header{
+  margin: 0;
+  line-height: 8;
+  font-family: "Arial", sans-serif;
+text-align: center;
+display: flex;
+flex-direction:column;
+justify-content: center
+align-items: center;
+padding: 0 20px;
+}
+
+img {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction:row;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+h1{
+  margin: 0;
+font-size: 250px;
+line-height: 1;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0 20px;
+  }
+
+h2{
+  color: white;
+  text-align: center;
+margin: 0;
+font-size: 20px;
+line-height: 50;
+display: flex;
+flex-direction:column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0 20px;
+    }
+
+h3{
+  margin: 0;
+  font-size: 500px;
+  line-height: 0.8;
+  font-family: "Arial";
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+p{
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  padding: 0 20px;
+}
+
+.title{
+  opacity: 0.2;
+}
+
+.h3:hover{
+  text-align: center;
+margin: 0;
+}
+
+.h2:hover{
+  opacity: 0.2;
+  text-align: center;
+margin: 0;
+font-size: 20px;
+line-height: 50;
+}
+
+.light:hover{
+    display: inline-block;
+    text-decoration: none;
+    padding: .5em 1.25em;
+    color:white;
+    font-weight: 700;
+    font-size: 1.25em;
+    opacity: 0.2;
+}
+
+.details{
+  font-family: Arial;
+  text-decoration: none;
+  font-size: 40px;
+  padding: .5em 1.25em;
+  color:yellow;
+}
+
+.details:hover{
+  transform: scale(20);
+  opacity: 100%;
+}
+
+.container{
+  width: 85%;
+  max-width: 65em
+  margin: 0 auto;
+
+}
+
+
+.btn{
+  align-items: center;
+  display: inline-block;
+  text-decoration: none;
+  padding: .5em 1.25em;
+  background-color:
+  color:;
+  font-weight: 700;
+  font-size: 1.25em;
+  transition:
+  transform 250ms ease-in-out,
+  opacity 175ms linear;
+}
+
+.btn:hover,
+.btn:focus {
+  transform: scale(1.1);
+  opacity: 0.2;
+}
+
+#images{
+  display: flex;
+}
+
+#images .pic1, #images .pic3{
+  transform: scale(3);
+}
