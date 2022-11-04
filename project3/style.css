@@ -5,7 +5,7 @@
 
 body {
 margin: 0;
-background-image: url("G4.jpg"),
+background-image: url("G4.JPG"),
 linear-gradient(30deg, #1fffe1 0%, #ff6347 100%);
 background-position: center top;
 background-repeat: no-repeat;
@@ -24,7 +24,7 @@ padding: 0;
 header{
   margin: 0;
   line-height: 8;
-  font-family: "Arial", sans-serif;
+  font-family: "Arial";
 text-align: center;
 display: flex;
 flex-direction:column;
