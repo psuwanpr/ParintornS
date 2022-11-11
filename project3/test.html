@@ -1,37 +1,50 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <style media="screen">
-.grid1:
-displya:grid{
-  grid-template-columns: repeat:6, 1fr;
-}
-p{
-  border: 1px solid black;
-}
-
-media screen and (min-width; 880px) {
-
-p{font-size:12px;
-}
-
-}
-.grid1 {background-color: Blue;
-}
-
-
-    </style>
+<head>
     <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <div class="grid1">
-      <p>hi
-    </p>
-    </div>
+      <title>Project three landing page</title>
+    	<link rel="stylesheet" href="styleproject3.css">
+      <script type="text/javascript">
+        function imgSlider(anything){
+          document.querySelector('.G6').src = anything;
+      }
 
-    <script src=script.js>
-
-    </script>
-  </body>
+      function changeBgcolor(color){
+        const sec = document.querySelector('.sec');
+        sec.style.background = color;
+      }
+      </script>
+</head>
+<body>
+    <section class="sec">
+      <header>
+        <a href="#"><img src="G6.JPG" class="logo"></a>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">More</a></li>
+          <li><a href="#">Less</a></li>
+          <li><a href="#">Unnecessary</a></li>
+          <li><a href="#">Required</a></li>
+        </ul>
+      </header>
+      <div class="content">
+        <div class="textBox">
+          <h2>Not a <br><span>Random collection </span></h2>
+          <p>This is a collection of randoms words,
+          images, and stylized memories. </p>
+            <a href="#">Click photos below</a>
+        </div>
+        <div class="imgBox">
+          <img src="G1.JPG" class="G6">
+        </div>
+      </div>
+      <ul class="thumb">
+        <li><img src="G3.JPG" class="G3" onclick="imgSlider('G6.jpg'); changeBgcolor('black')"></li>
+        <li><img src="G4.JPG" class="G4" onclick="imgSlider('G10.jpg'); changeBgcolor('yellow')"></li>
+        <li><img src="G8.JPG" class="G8" onclick="imgSlider('G9.jpg'); changeBgcolor('red')"></li>
+        <li><img src="D1.jpeg" class="D1" onclick="imgSlider('D3.jpeg') ;changeBgcolor('blue')"></li>
+        <li><img src="D2.jpeg" class="D2" onclick="imgSlider('D2.jpeg');changeBgcolor('orange')"></li>
+      </ul>
+    </section>
+</body>
 </html>
